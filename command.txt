@@ -1,3 +1,5 @@
+
+NETWORK >>
 /etc/sysconfig/network-scripts/ifcfg
 BOOTPROTO=
 IPADDR=
@@ -6,6 +8,18 @@ GATEWAY=
 /etc/resolve.conf
 nameserver 8.8.8.8
 service network restart
-
 firewall-cmd --permanent --add-port=53/tcp
 firewall-cmd --reload
+>>>>>>>>>>>>>>>>>>
+/root/.ssh/id_rsa
+ssh-keygen
+cp -rf /source/ /destination
+mv tar zip 
+>>>>>>>>>>>>>>>>>>
+GIT COMMANDS >>
+git add .txt
+git commit -m "message" .txt
+git push -u origin master
+git branch branchname*
+git checkout branchname*
+
