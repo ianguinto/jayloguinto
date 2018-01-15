@@ -1,0 +1,11 @@
+/etc/sysconfig/network-scripts/ifcfg
+BOOTPROTO=
+IPADDR=
+NETMASK=
+GATEWAY=
+/etc/resolve.conf
+nameserver 8.8.8.8
+service network restart
+
+firewall-cmd --permanent --add-port=53/tcp
+firewall-cmd --reload
