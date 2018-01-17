@@ -25,3 +25,7 @@ git push -u origin master
 git branch branchname*
 git checkout branchname*
 
+
+git clone --mirror URL
+git remote add NEW-REMOTE URL
+git push  NEW-REMOTE --mirror 
