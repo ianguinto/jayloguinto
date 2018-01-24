@@ -20,6 +20,9 @@ kill -9 #
 >>>>>>>>>>>>>>>>>>
 GIT COMMANDS >>
 git add .txt
+git add -A #add all
+git add -u #add modified without new
+git add . #add modified without deleted
 git commit -m "message" .txt
 git push -u origin master
 git branch branchname*
