@@ -24,8 +24,41 @@ git commit -m "message" .txt
 git push -u origin master
 git branch branchname*
 git checkout branchname*
-
-
 git clone --mirror URL
 git remote add NEW-REMOTE URL
 git push  NEW-REMOTE --mirror 
+
+ssh-keygen
+cat ~/.ssh/id_rsa.pub
+git config --global user.email "toro.ian.guinto@gmai.com"
+git config --global user.name "ianguinto"
+git init
+git clone git@bitbucket.org:ianguinto/devops_ian.git
+cd devops_ian
+echo "# My project's README" >> README.md
+git add README.md
+git commit -m "Initial commit"
+git push -u origin master
+git branch
+git branch develop
+git checkout develop
+git push -u origin develop.
+git branch OJTSYSAD-719-FEATURE-Bautista
+git checkout OJTSYSAD-719-FEATURE-Bautista
+vi wala.txt
+git add wala.txt
+git commit -m "OJTSYSAD-719-wala"
+git push -u origin OJTSYSAD-719-FEATURE-Bautista
+git checkout develop
+git branch OJTSYSAD-719-Bug-Guinto
+git checkout OJTSYSAD-719-Bug-Guinto
+vi walabug.txt
+git add walabug.txt
+git commit -m "OJTSYSAD-713:walabug"
+git push -u origin OJTSYSAD-719-Bug-Guinto
+git checkout develop
+git checkout -b OJTSYSAD-719-FEATURE-Jaylo develop
+vi jaylo.txt
+git add jaylo.txt
+git commit -m "OJTSYSAD-719:Jaylo"
+git push -u origin OJTSYSAD-719-FEATURE-Jaylo
