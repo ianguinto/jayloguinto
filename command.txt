@@ -17,6 +17,8 @@ cp -rf /source/ /destination
 mv tar zip 
 ps -ef | grep tomcat #process
 kill -9 #
+scp -r root@10.10.5.243:/opt/apache-activemq-5.15.2/ root@10.10.5.249:/opt/
+
 >>>>>>>>>>>>>>>>>>
 GIT COMMANDS >>
 git add .txt
