@@ -1,0 +1,8 @@
+docker service create -p 9090:8080 \
+--name ojt-ian-integrate \
+--constraint 'node.labels.type == web' --replicas 2 \
+--restart-condition on-failure \
+--restart-max-attempts 5 \
+toro-ian
+
+
